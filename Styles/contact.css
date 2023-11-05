@@ -71,6 +71,11 @@ main .homepage-image {
   display: flex;
   justify-content: center;
 }
+main .details {
+  margin-top: 10px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
 
 @media screen and (min-width: 600px) {
   main h1 {
@@ -81,9 +86,13 @@ main .homepage-image {
     display: flex;
     justify-content: flex-start;
   }
+  main .details {
+    margin-left: 3px;
+    margin-right: 0px;
+  }
 }
 footer {
-  background-color: rgb(94, 64, 97);
+  background-color: rgb(34, 5, 51);
   padding: 16px;
   text-align: center;
 }
@@ -95,10 +104,17 @@ footer .social-media a i {
   color: rgb(218, 218, 43);
   font-size: 24px;
 }
-footer .social-media .info {
+footer .info {
   font-style: italic;
+  color: rgb(218, 218, 43);
 }
 
+@media screen and (min-width: 600px) {
+  footer .social-media {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 main {
   display: flex;
   flex-direction: column;
@@ -112,9 +128,9 @@ main .resume-image {
 main .resume-image img {
   display: flex;
   align-items: center;
-  width: 170px;
+  width: 160px;
   margin-top: 5px;
-  height: 100px;
+  height: 90px;
 }
 main p {
   display: flex;
@@ -133,32 +149,80 @@ main h3 {
 main form .form-elements {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-bottom: 6px;
   font-size: 13px;
-  margin-left: 120px;
-  margin-right: 120px;
 }
 main form .form-elements .form-input {
   border: 1px solid black;
   border-radius: 4px;
   outline: black;
+  width: 300px;
 }
 main form .form-elements .form-input#form-textarea {
   resize: none;
 }
-main #submit {
-  display: flex;
-  align-items: center;
+main form .btn {
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-radius: 4px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
+  main {
+    margin-left: 45px;
+  }
   main .resume-image {
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
-    justify-content: center;
   }
   main .resume-image img {
-    width: 170px;
-    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    width: 160px;
+    margin-top: 5px;
+    height: 90px;
   }
+  main p {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-style: italic;
+    font-size: 14px;
+  }
+  main h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  main form .form-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 6px;
+    font-size: 13px;
+  }
+  main form .form-elements .form-input {
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: black;
+    width: 300px;
+  }
+  main form .form-elements .form-input#form-textarea {
+    resize: none;
+  }
+  main form .btn {
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+}
+footer .info {
+  font-style: italic;
+  color: rgb(218, 218, 43);
 }/*# sourceMappingURL=contact.css.map */

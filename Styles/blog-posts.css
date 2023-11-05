@@ -71,6 +71,11 @@ main .homepage-image {
   display: flex;
   justify-content: center;
 }
+main .details {
+  margin-top: 10px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
 
 @media screen and (min-width: 600px) {
   main h1 {
@@ -81,9 +86,13 @@ main .homepage-image {
     display: flex;
     justify-content: flex-start;
   }
+  main .details {
+    margin-left: 3px;
+    margin-right: 0px;
+  }
 }
 footer {
-  background-color: rgb(94, 64, 97);
+  background-color: rgb(34, 5, 51);
   padding: 16px;
   text-align: center;
 }
@@ -95,10 +104,17 @@ footer .social-media a i {
   color: rgb(218, 218, 43);
   font-size: 24px;
 }
-footer .social-media .info {
+footer .info {
   font-style: italic;
+  color: rgb(218, 218, 43);
 }
 
+@media screen and (min-width: 600px) {
+  footer .social-media {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 main {
   min-height: 10vh;
   display: flex;
@@ -185,7 +201,11 @@ main .blog-text {
     justify-content: flex-start;
   }
   main .blog-text {
-    margin-right: 0%;
-    margin-left: 0%;
+    margin-right: auto;
+    margin-left: auto;
   }
+}
+footer .info {
+  font-style: italic;
+  color: rgb(218, 218, 43);
 }/*# sourceMappingURL=blog-posts.css.map */

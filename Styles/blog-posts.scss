@@ -78,6 +78,8 @@ main {
 
 
 
+
+
 @media screen and (min-width: 600px) {
     main {
         h2 {
@@ -110,8 +112,15 @@ main {
                             justify-content: flex-start;
                             }
             .blog-text {
-                margin-right: auto%;
-                margin-left: auto%;
+                margin-right: auto;
+                margin-left: auto;
             }
     }
+}
+
+footer {
+    .info {
+        font-style: italic;
+        color: $nav-footer-icons;
+}
 }
