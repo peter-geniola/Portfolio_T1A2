@@ -3,6 +3,10 @@ $footer-background: rgb(79, 39, 111);
 $body-background: white;
 $nav-footer-icons: rgb(218, 218, 43);
 
+
+
+    
+
 body {
     margin:0;
     background-color: $body-background;
@@ -22,11 +26,11 @@ header {
     display: flex;
     justify-content: center;
     background-color: $header-background;
+    
 }
 
     .logo-name {
         display: flex;
-        flex-direction: row;
         margin-left: 25%;
     }
 
@@ -43,47 +47,76 @@ header {
         justify-content: space-around;
         align-items: first baseline;
         margin-right: 25%;
+        margin-left: 10%;
         }
         a {
             color: $nav-footer-icons;
             text-decoration: none;
         }
 
+
 @media screen and (min-width: 600px) {
     header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        
         .logo-name {
             display: flex;
-            margin-left: 10%;
+            justify-content: flex-end;
+            margin-left: 0px;
+        }
+
+        #nav-bar {
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            margin-right: 0px;
+            margin-bottom: 20px;
+        
+            
         }
     }
-        
+}
+
+
 
 
 main {
     min-height: 10vh;
     display: flex;
     flex-direction: column;
-
+    margin-left: 8px;
 
     h1 {
         margin-bottom: 6px;
         margin-top: 8px;
         text-align: center;
     }
-
         .homepage-image {
             display: flex;
             justify-content: center;
         }
-
 }
 
+@media screen and (min-width: 600px) {
+    main {
 
+        h1 {
+            display: flex;
+            justify-content: flex-start;
+        }
 
+       
+        .homepage-image {
+            display: flex;
+            justify-content: flex-start;
 
+        } 
+    }
+}
 
-
-
+    
 
 footer {
     background-color: rgb(94, 64, 97);
@@ -101,9 +134,11 @@ footer {
             }
         }
 
-        .info {
-            font-weight: 700;
-            color: black;
-        }
+        
+    .info {
+        font-style: italic;
+    } 
+        
     }
 }
+

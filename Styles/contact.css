@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(34, 5, 51);
+}
+
+.logo-name {
+  display: flex;
+  margin-left: 25%;
+}
+
+img {
+  width: 260px;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  justify-content: space-around;
+  align-items: first baseline;
+  margin-right: 25%;
+  margin-left: 10%;
+}
+
+a {
+  color: rgb(218, 218, 43);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+  header .logo-name {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0px;
+  }
+  header #nav-bar {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+main {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+main h1 {
+  margin-bottom: 6px;
+  margin-top: 8px;
+  text-align: center;
+}
+main .homepage-image {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  main h1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  main .homepage-image {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+footer {
+  background-color: rgb(94, 64, 97);
+  padding: 16px;
+  text-align: center;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+}
+footer .social-media a i {
+  color: rgb(218, 218, 43);
+  font-size: 24px;
+}
+footer .social-media .info {
+  font-style: italic;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .resume-image {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .resume-image img {
+  display: flex;
+  align-items: center;
+  width: 170px;
+  margin-top: 5px;
+  height: 100px;
+}
+main p {
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-style: italic;
+  font-size: 14px;
+}
+main h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+main form .form-elements {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6px;
+  font-size: 13px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+main form .form-elements .form-input {
+  border: 1px solid black;
+  border-radius: 4px;
+  outline: black;
+}
+main form .form-elements .form-input#form-textarea {
+  resize: none;
+}
+main #submit {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  main .resume-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .resume-image img {
+    width: 170px;
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=contact.css.map */

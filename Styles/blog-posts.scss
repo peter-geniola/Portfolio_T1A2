@@ -1,0 +1,117 @@
+@import "./../index";
+
+main {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+    h2 {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .blog-pic1 {
+        display: flex;
+        justify-content: center;
+
+            img {
+                padding:10px;
+                width: 220px;
+                height: 220px;
+            }
+        
+        }
+        
+    .blog-pic2 {
+        display: flex;
+        justify-content: center;
+
+        img {
+            padding: 10px;
+            width: 220px;
+            height: 220px;
+        }
+    }
+ 
+    .blog-pic3 {
+        display: flex;
+        justify-content: center;
+
+        img {
+            
+            padding: 10px;
+            width: 220px;
+            height: 220px;
+        }
+    }
+    
+    .blog-pic4 {
+        display: flex;
+        justify-content: center;
+
+        img {
+            padding: 10px;
+            width: 220px;
+            height: 220px;
+        }
+    }
+
+    .blog-pic5 {
+        display: flex;
+        justify-content: center;
+
+        img {
+            padding: 10px;
+            width: 220px;
+            height: 220px;
+        }
+    }
+
+    .blog-text {
+        margin-bottom: 12px;
+        margin-left: 28%;
+        margin-right: 27%;
+    }
+}
+
+
+
+@media screen and (min-width: 600px) {
+    main {
+        h2 {
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        .blog-pic1 {
+            display: flex;
+            justify-content: flex-start;
+            }
+
+            .blog-pic2 {
+                display: flex;
+                justify-content: flex-start;
+                }
+
+                .blog-pic3 {
+                    display: flex;
+                    justify-content: flex-start;
+                    }
+
+                    .blog-pic4 {
+                        display: flex;
+                        justify-content: flex-start;
+                        }
+
+                        .blog-pic5 {
+                            display: flex;
+                            justify-content: flex-start;
+                            }
+            .blog-text {
+                margin-right: auto%;
+                margin-left: auto%;
+            }
+    }
+}
