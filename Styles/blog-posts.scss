@@ -83,7 +83,48 @@ main {
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 576px) {
+    main {
+        h2 {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .blog-pic1 {
+            display: flex;
+            justify-content: center;
+            }
+
+            .blog-pic2 {
+                display: flex;
+                justify-content: center;
+                }
+
+                .blog-pic3 {
+                    display: flex;
+                    justify-content: center;
+                    }
+
+                    .blog-pic4 {
+                        display: flex;
+                        justify-content: center;
+                        }
+
+                        .blog-pic5 {
+                            display: flex;
+                            justify-content: center;
+                            }
+            .blog-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+    }
+}
+
+
+@media screen and (min-width: 992px) {
     main {
         h2 {
             display: flex;
@@ -120,5 +161,4 @@ main {
             }
     }
 }
-
 

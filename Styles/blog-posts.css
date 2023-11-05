@@ -35,7 +35,7 @@ a {
   text-decoration: none;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 576px) {
   header {
     display: flex;
     justify-content: flex-start;
@@ -75,7 +75,7 @@ main .details {
   margin-right: 110px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 576px) {
   main h1 {
     display: flex;
     justify-content: flex-start;
@@ -87,6 +87,27 @@ main .details {
   main .details {
     margin-left: 3px;
     margin-right: 0px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+  }
+  main h1 {
+    display: flex;
+    justify-content: center;
+  }
+  main .homepage-image {
+    display: flex;
+    justify-content: center;
+  }
+  main .details {
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 footer {
@@ -107,7 +128,7 @@ footer .info {
   color: rgb(218, 218, 43);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 576px) {
   footer .social-media {
     display: flex;
     justify-content: space-around;
@@ -173,7 +194,39 @@ main .blog-text {
   margin-right: 27%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 576px) {
+  main h2 {
+    display: flex;
+    justify-content: center;
+  }
+  main .blog-pic1 {
+    display: flex;
+    justify-content: center;
+  }
+  main .blog-pic2 {
+    display: flex;
+    justify-content: center;
+  }
+  main .blog-pic3 {
+    display: flex;
+    justify-content: center;
+  }
+  main .blog-pic4 {
+    display: flex;
+    justify-content: center;
+  }
+  main .blog-pic5 {
+    display: flex;
+    justify-content: center;
+  }
+  main .blog-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 992px) {
   main h2 {
     display: flex;
     justify-content: flex-start;

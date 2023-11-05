@@ -57,7 +57,7 @@ header {
     
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 576px) {
     header {
         display: flex;
         justify-content: flex-start;
@@ -110,7 +110,9 @@ main {
         }
 }
 
-@media screen and (min-width: 600px) {
+
+
+@media screen and (min-width: 576px) {
     main {
 
         h1 {
@@ -133,7 +135,30 @@ main {
     }
 }
 
+@media screen and (max-width: 992px) {
+    main {
+        min-height: 10vh;
+        display: flex;
+        flex-direction: column;
+        margin-left: 8px;
     
+        h1 {
+            display: flex;
+            justify-content: center;
+        }
+            .homepage-image {
+                display: flex;
+                justify-content: center;
+            }
+    
+            .details {
+                margin-top: 10px;
+                margin-left: 20%;
+                margin-right: 20%;
+            }
+    }
+}
+
 
 footer {
     background-color: $header-background;
@@ -161,7 +186,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 576px) {
     footer {
         .social-media {
             display: flex;
