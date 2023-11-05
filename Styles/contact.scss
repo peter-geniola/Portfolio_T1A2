@@ -1,6 +1,7 @@
 @import "./../index";
 
- 
+
+// 
 
 main {
     display: flex;
@@ -154,9 +155,3 @@ main {
     }
 }
 
-footer {
-    .info {
-        font-style: italic;
-        color: $nav-footer-icons;
-    }
-}
