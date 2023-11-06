@@ -4,8 +4,7 @@ $body-background: white;
 $nav-footer-icons: rgb(218, 218, 43);
 
 
-
-    
+// code for body 
 
 body {
     margin:0;
@@ -20,7 +19,7 @@ body {
     
 }
 
-
+//  header content, logo, nav bar and background
 
 header {
 
@@ -55,7 +54,7 @@ header {
             text-decoration: none;
         }
     
-
+// header tablet view
 
 @media screen and (min-width: 576px) {
     header {
@@ -87,6 +86,8 @@ header {
     }
 }
 
+// header desktop view
+
 @media screen and (min-width: 992px) {
     header {
         display: flex;
@@ -117,7 +118,7 @@ header {
     }
 }
 
-
+// main content, heading, image and bulleted list
 
 main {
     min-height: 10vh;
@@ -142,7 +143,7 @@ main {
         }
 }
 
-
+// main tablet view
 
 @media screen and (min-width: 576px) {
     main {
@@ -175,6 +176,8 @@ main {
     }
 }
 
+// main desktop view
+
 @media screen and (min-width: 992px) {
     main {
         min-height: 10vh;
@@ -200,6 +203,7 @@ main {
     }
 }
 
+// footer content background social media links and contact infomation.
 
 footer {
     background-color: $header-background;
@@ -230,6 +234,8 @@ footer {
     }
 }
 
+// footer tablet view
+
 @media screen and (min-width: 576px) {
     footer {
         .social-media {
@@ -243,6 +249,8 @@ footer {
         }
     }
 }
+
+// footer desktop view
 
 @media screen and (min-width: 992px) {
     footer {

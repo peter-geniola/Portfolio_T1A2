@@ -2,7 +2,7 @@
 
 
 
-    
+// main content, contact form and inage link to resume
 
 main {
     display: flex;
@@ -77,6 +77,8 @@ main {
         }
     }
 }
+
+// tablet view
 
 @media screen and (min-width: 576px) {
     main {
@@ -155,6 +157,8 @@ main {
 }
 
 }
+
+// desktop view
 
 @media screen and (min-width: 992px) {
     

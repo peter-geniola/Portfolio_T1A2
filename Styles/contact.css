@@ -107,19 +107,20 @@ main .details {
   }
   main h1 {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
   }
   main .homepage-image {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    margin-bottom: 0px;
   }
   main .details {
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
   main {
     min-height: 10vh;
     display: flex;
@@ -128,16 +129,16 @@ main .details {
   }
   main h1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
   main .homepage-image {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
   main .details {
-    margin-top: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0px;
   }
 }
 footer {

@@ -1,6 +1,7 @@
 @import "./../index"; 
 
 
+// main content, heading and text
 
 main {
 
@@ -23,6 +24,8 @@ main {
     }
 }
 
+// tablet view
+
 @media screen and (min-width: 576px) {
     main {
         h1 {
@@ -39,6 +42,7 @@ main {
     }
 }
 
+// desktop view
 
 @media screen and (min-width: 992px) {
     main {

@@ -1,6 +1,6 @@
 @import "./../index";
 
-
+// maincontent and images
 
 main {
     min-height: 10vh;
@@ -79,7 +79,7 @@ main {
 }
 
 
-
+// tablet view
 
 
 @media screen and (min-width: 576px) {
@@ -123,6 +123,7 @@ main {
     }
 }
 
+// desktop view
 
 @media screen and (min-width: 992px) {
     main {
@@ -156,7 +157,7 @@ main {
                             justify-content: flex-start;
                             }
             .blog-text {
-                margin-right: 10px;
+                margin-right: 85%;
                 margin-left: 10px;
             }
     }
