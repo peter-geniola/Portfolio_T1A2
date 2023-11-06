@@ -1,6 +1,8 @@
 @import "./../index"; 
 
-
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
 // main content, heading and text
 
 main {
@@ -11,6 +13,7 @@ main {
         margin-bottom: 0px;
     }
     p {
+        
         margin-bottom: 25px;
         margin-left: 25px;
         margin-right: 25px;

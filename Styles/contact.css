@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: "Cormorant Garamond", serif;
 }
 
 header {
@@ -93,9 +94,10 @@ main .homepage-image {
   justify-content: center;
 }
 main .details {
-  margin-top: 10px;
-  margin-left: 110px;
-  margin-right: 110px;
+  display: flex;
+  justify-content: center;
+  margin-left: 70px;
+  margin-right: 90px;
 }
 
 @media screen and (min-width: 576px) {
@@ -167,8 +169,8 @@ footer .info {
     display: flex;
     justify-content: space-around;
     margin-top: 5px;
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -176,10 +178,14 @@ footer .info {
     display: flex;
     justify-content: space-around;
     margin-top: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 }
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+
 main {
   display: flex;
   flex-direction: column;
