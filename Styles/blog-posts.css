@@ -93,9 +93,8 @@ main .homepage-image {
   justify-content: center;
 }
 main .details {
-  margin-top: 10px;
-  margin-left: 110px;
-  margin-right: 110px;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 @media screen and (min-width: 576px) {
@@ -189,6 +188,14 @@ main h2 {
   display: flex;
   justify-content: center;
 }
+main h4 {
+  display: flex;
+  justify-content: center;
+}
+main p {
+  display: flex;
+  justify-content: center;
+}
 main .blog-pic1 {
   display: flex;
   justify-content: center;
@@ -278,6 +285,19 @@ main .blog-text {
   main h2 {
     display: flex;
     justify-content: flex-start;
+  }
+  main h4 {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 2%;
+    margin-left: 10px;
+  }
+  main p {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    margin-right: 2%;
+    margin-left: 10px;
   }
   main .blog-pic1 {
     display: flex;
