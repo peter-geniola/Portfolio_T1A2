@@ -3,6 +3,8 @@
 
 
 main {
+
+
     h1 {
         margin-top: 10px;
         margin-bottom: 0px;
@@ -40,6 +42,9 @@ main {
 
 @media screen and (min-width: 992px) {
     main {
+
+        margin-right: 62%;
+
         h1 {
             display: flex;
             justify-content: flex-start;

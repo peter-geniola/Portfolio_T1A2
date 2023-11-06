@@ -211,6 +211,9 @@ main a {
   }
 }
 @media screen and (min-width: 992px) {
+  main {
+    margin-right: 62%;
+  }
   main h1 {
     display: flex;
     justify-content: flex-start;
