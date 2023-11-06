@@ -99,20 +99,6 @@ main .details {
 }
 
 @media screen and (min-width: 576px) {
-  main h1 {
-    display: flex;
-    justify-content: flex-start;
-  }
-  main .homepage-image {
-    display: flex;
-    justify-content: flex-start;
-  }
-  main .details {
-    margin-left: 3px;
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 992px) {
   main {
     min-height: 10vh;
     display: flex;
@@ -126,11 +112,33 @@ main .details {
   main .homepage-image {
     display: flex;
     justify-content: center;
+    margin-bottom: 0px;
   }
   main .details {
-    margin-top: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+  }
+}
+@media screen and (min-width: 992px) {
+  main {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+  }
+  main h1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  main .homepage-image {
+    display: flex;
+    justify-content: flex-start;
+  }
+  main .details {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0px;
   }
 }
 footer {
@@ -142,8 +150,8 @@ footer .social-media {
   display: flex;
   justify-content: space-around;
   margin-top: 5px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 footer .social-media a i {
   color: rgb(218, 218, 43);
@@ -159,6 +167,8 @@ footer .info {
     display: flex;
     justify-content: space-around;
     margin-top: 5px;
+    margin-left: 12%;
+    margin-right: 12%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -172,38 +182,46 @@ footer .info {
 }
 main h1 {
   margin-top: 10px;
-  margin-bottom: 0%;
+  margin-bottom: 0px;
 }
 main p {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+main a {
+  color: rgb(30, 30, 83);
+  font-weight: 900;
+  text-decoration-line: underline;
+  font-size: 16px;
+  margin-left: 25px;
 }
 
 @media screen and (min-width: 576px) {
   main h1 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
   }
   main P {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 }
 @media screen and (min-width: 992px) {
   main h1 {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 5px;
   }
   main P {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    margin-left: 5px;
   }
 }/*# sourceMappingURL=about.css.map */
