@@ -271,6 +271,7 @@ main .blog-text {
     justify-content: center;
     margin-left: 18%;
     margin-right: 18%;
+    text-align: center;
   }
 }
 @media screen and (min-width: 992px) {
@@ -301,5 +302,6 @@ main .blog-text {
   main .blog-text {
     margin-right: 2%;
     margin-left: 10px;
+    text-align: left;
   }
 }/*# sourceMappingURL=blog-posts.css.map */
