@@ -146,6 +146,10 @@ main {
 
 @media screen and (min-width: 576px) {
     main {
+        min-height: 10vh;
+        display: flex;
+        flex-direction: column;
+        margin-left: 8px;
 
         h1 {
             display: flex;
@@ -153,16 +157,17 @@ main {
         }
 
        
-        .homepage-image {
-            display: flex;
-            justify-content: flex-start;
+            .homepage-image {
+                display: flex;
+                justify-content: flex-start;
 
-        }
+            }
         
-        .details {
-            margin-left: 3px;
-            margin-right: 0px;
-        }
+            .details {
+                text-align: center;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
 
     }
 }
