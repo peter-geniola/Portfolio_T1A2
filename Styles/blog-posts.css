@@ -299,7 +299,7 @@ main .blog-text {
     justify-content: flex-start;
   }
   main .blog-text {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }/*# sourceMappingURL=blog-posts.css.map */
