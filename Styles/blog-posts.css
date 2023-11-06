@@ -27,7 +27,7 @@ img {
   flex-direction: column;
   font-size: 15px;
   justify-content: space-around;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 a {
